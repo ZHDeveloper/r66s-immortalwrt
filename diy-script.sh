@@ -30,6 +30,9 @@ function git_sparse_clone() {
   cd .. && rm -rf $repodir
 }
 
+# mosdns
+git clone --depth=1 -b v5-lua https://github.com/sbwml/luci-app-mosdns package/luci-app-mosdns
+
 # 科学上网插件
 git clone --depth=1 https://github.com/fw876/helloworld package/luci-app-ssr-plus
 git clone --depth=1 https://github.com/xiaorouji/openwrt-passwall-packages package/openwrt-passwall
