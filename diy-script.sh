@@ -18,6 +18,7 @@ rm -rf feeds/luci/applications/luci-app-ddns-go
 rm -rf feeds/luci/applications/luci-app-ssr-plus
 rm -rf feeds/luci/applications/luci-app-passwall
 rm -rf feeds/luci/applications/luci-app-openclash
+rm -rf feeds/luci/applications/luci-app-adguardhome
 
 
 # Git稀疏克隆，只克隆指定目录到本地
