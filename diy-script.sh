@@ -42,7 +42,6 @@ git clone --depth=1 https://github.com/morytyann/OpenWrt-mihomo package/luci-app
 
 
 # 添加额外插件
-git clone --depth=1 https://github.com/asvow/luci-app-tailscale package/luci-app-tailscale
 git_sparse_clone main https://github.com/Lienol/openwrt-package luci-app-filebrowser
 git_sparse_clone openwrt-23.05 https://github.com/openwrt/packages net/tailscale
 git clone --depth=1 https://github.com/kongfl888/luci-app-adguardhome package/luci-app-adguardhome
